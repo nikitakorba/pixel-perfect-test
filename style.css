@@ -1,0 +1,555 @@
+    @font-face {
+        font-family: 'Gothm Rounded';
+        src: url("fonts/GothamRoundedBook_21018.ttf");
+    }
+    @font-face {
+        font-family: 'Gothm Rounded Bold';;
+        src: url("fonts/GothamRoundedBold_21016.ttf");
+    }
+    @font-face {
+        font-family: 'Gothm Rounded Medium';
+        src: url("fonts/GothamRoundedMedium_21022.ttf");
+    }
+    body {
+        margin: 0;
+    }
+    .section1 {
+        background: url("images/Без-имени-1.png");
+        /*position: absolute;*/
+        width: 1280px;
+        height: 745px;
+        /*display: flex;*/
+    }
+    .section1 a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-family: Gothm Rounded Bold;
+        text-transform: uppercase;
+    }
+    .section-1-header {
+        width: 100%;
+        height: 134px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*margin-left: 13px;*/
+        font-family: Gothm Rounded Book;
+    }
+    .navbar-icon {
+        position: relative;
+        background: url("images/Navbar-Icon.png") no-repeat;
+        width: 166px;
+        height: 55px;
+        left: 607px;
+        top: 18px;
+    }
+    .home-link {
+      position: relative;
+          top: 69px;
+          left: 272px;
+          letter-spacing: 0.15em;
+    }
+    .app-link {
+      position: relative;
+          top: 69px;
+          left: 333px;
+          letter-spacing: 0.16em;
+    }
+    .design-link {
+      position: relative;
+      top: -8px;
+      left: 758px;
+      letter-spacing: 0.15em;
+    }
+    .download-link {
+      position: relative;
+      top: -8px;
+      left: 831px;
+      letter-spacing: 0.17em;
+    }
+    .life-text {
+      position: relative;
+      left: 390px;
+      top: 231px;
+      color: white;
+      font-family: Gothm Rounded Bold;
+      font-size: 36px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+    }
+    .print-text {
+      position: relative;
+      left: 475px;
+      top: 223px;
+      color: white;
+      font-size: 16px;
+      font-family: Gothm Rounded;
+      letter-spacing: 2.55px;
+    }
+    .navb {
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-1-container {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: 536px;
+        align-items: center;
+        justify-content: center;
+        line-height: 150%;
+    }
+    .section-1-container p {
+        font-size: large;
+    }
+    .section-1-container h2 {
+        font-size: 36px;
+    }
+    .section-1-button {
+      position: relative;
+          left: 557px;
+          top: 236px;
+          background: url(images/Button.png) no-repeat;
+          border: 0;
+          border-radius: 3%;
+          padding: 0;
+          height: 49px;
+          width: 166px;
+          color: white;
+          font-size: 12px;
+          font-family: Gothm Rounded Bold;
+          letter-spacing: 0.15em;
+          padding-top: 2px;
+          padding-left: 2px;
+    }
+    .networks {
+      position: relative;
+      left: 591px;
+      height: 25px;
+      top: 458px;
+    }
+    .twitter {
+        background: url("images/section-1-twitter.png") no-repeat;
+        display: inline-flex;
+        height: 25px;
+        width: 28px;
+        position: relative;
+    }
+    .flickr {
+        background: url("images/section-1-flickr.png") no-repeat;
+        height: 25px;
+        width: 28px;
+        display: inline-flex;
+        position: relative;
+        left: 7px;
+    }
+    .dribble {
+        background: url("images/section-1-dribble.png") no-repeat;
+        height: 25px;
+        width: 28px;
+        display: inline-flex;
+        position: relative;
+        left: 14px;
+    }
+
+    .section-2 {
+        background: url("images/Section-2-background.png") no-repeat;
+        height: 492px;
+        width: 1280px;
+    }
+    .button-2 {
+      position: relative;
+      top: 351px;
+      left: 129px;
+      background: url(images/Button-2-section-2.png) no-repeat;
+      border: 0;
+      border-radius: 3%;
+      padding: 0;
+      height: 51px;
+      width: 192px;
+      color: white;
+      font-size: 12px;
+      font-family: Gothm Rounded Bold;
+      letter-spacing: 0.15em;
+      padding-top: 3px;
+      padding-left: 1px;
+
+    }
+    .iphone-hand {
+      position: relative;
+      background: url(images/iPhone-Hand.png) no-repeat;
+      height: 402px;
+      width: 642px;
+      top: -129px;
+      left: 510px;
+    }
+    .represent-header {
+      position: relative;
+      top: 58px;
+      left: 129px;
+      width: 380px;
+      font-size: 18px;
+      color: #00A185;
+      font-family: Gothm Rounded Bold;
+      letter-spacing: 0.15em;
+      line-height: 1.2;
+    }
+    .represent-text {
+      position: relative;
+      top: 87px;
+      left: 128px;
+      font-size: 12px;
+      font-family: Gothm Rounded;
+      color: rgb(55, 55, 55);
+      line-height: 2;
+      width: 441px;
+      height: 107px;
+      letter-spacing: 1.8px;
+    }
+    .section-3 {
+        background-color: white;
+        z-index: 1;
+        height: 559px;
+        width: 1280px;
+    }
+    .iphone-green {
+        position: relative;
+        background: url("images/iphone-green.png") no-repeat;
+        height: 412px;
+        width: 314px;
+        top: 146px;
+        left: 124px;
+    }
+    .design-content {
+        top: -271px;
+        position: relative;
+        left: 765px;
+        width: 365px;
+    }
+    .design-header {
+      position: relative;
+          top: -1px;
+          left: 1px;
+          font-size: 18px;
+          color: #00A185;
+          font-family: Gothm Rounded Bold;
+          text-transform: uppercase;
+          letter-spacing: 0.15em;
+    }
+    .design-text {
+      position: relative;
+          top: 22px;
+          left: 4px;
+          font-size: 12px;
+          font-family: Gothm Rounded;
+          color: rgb(55, 55, 55);
+          line-height: 1.85;
+          width: 441px;
+          height: 107px;
+          letter-spacing: 1.8px;
+    }
+    .button-3 {
+      position: relative;
+          left: 2px;
+          top: 52px;
+          display: block;
+          background-color: #00A185;
+          border: 0;
+          /* padding: 0; */
+          height: 51px;
+          width: 192px;
+          color: white;
+          font-size: 12px;
+          font-family: Gothm Rounded Bold;
+          letter-spacing: 0.15em;
+          padding-left: 2px;
+    }
+    .pages {
+      position: relative;
+      top: 92px;
+      left: 2px;
+      font-size: 12px;
+      font-family: Gothm Rounded Bold;
+      color: rgb(55, 55, 55);
+      text-transform: uppercase;
+      line-height: 1.833;
+      letter-spacing: 1.6px;
+    }
+    .design-content i {
+        height: 12px;
+        position: relative;
+        width: 12px;
+    }
+    .left-arrow {
+        top: 94px;
+        left: 5px;
+        border: solid black;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+    .right-arrow {
+        top: 94px;
+        left: 14px;
+        border: solid black;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+    .container {
+      width: 1280px;
+      padding: 0;
+    }
+    .section-4 {
+        background: url("images/Section-2-background.png") no-repeat;
+        height: 482px;
+        width: 1280px;
+    }
+    .section-4-icon {
+      position: relative;
+          background: url(images/section-3-icon.png) no-repeat;
+          width: 166px;
+          height: 55px;
+          left: 187px;
+          top: 68px;
+    }
+    .bus {
+      position: relative;
+      background: url(images/section-3-bus.png) no-repeat;
+      height: 412px;
+      width: 370px;
+      top: -31px;
+      left: 386px;
+    }
+    .leafs {
+      position: relative;
+      background: url(images/section-3-leafs.png) no-repeat;
+      height: 412px;
+      width: 371px;
+      top: -443px;
+      left: 780px;
+    }
+    .left-arrow-4 {
+      height: 12px;
+      width: 12px;
+      position: relative;
+      top: 17px;
+      left: 1117px;
+      border: solid black;
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+    .right-arrow-4 {
+      height: 12px;
+      width: 12px;
+      position: relative;
+      top: 17px;
+      left: 1120px;
+      border: solid black;
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    .design-content-4 {
+          top: 244px;
+          position: relative;
+          left: 129px;
+          width: 166px;
+    }
+    .design-header-4 {
+      position: relative;
+          top: 3px;
+          font-size: 16px;
+          font-family: Gothm Rounded Bold;
+          color: rgb(55, 55, 55);
+          text-transform: uppercase;
+          line-height: 1.25;
+          letter-spacing: 2.3px;
+          width: 200px;
+
+    }
+    .design-text-4 {
+      position: relative;
+      top: 12px;
+      left: 6px;
+      font-size: 10px;
+      font-family: Gothm Rounded;
+      color: rgb(55, 55, 55);
+      line-height: 1.2;
+      text-align: center;
+      letter-spacing: 1.5px;
+    }
+
+    .section-5 {
+        background: url("images/Section-4-background.png") no-repeat;
+        height: 790px;
+        width: 1280px;
+    }
+    .email-form{
+      background-color: rgb(255, 255, 255);
+          position: relative;
+          left: 467px;
+          top: 406px;
+          width: 280px;
+          height: 59px;
+          z-index: 728;
+          border: 0px;
+          letter-spacing: 2.4px;
+          border-radius: 3px 0px 0px 3px;
+          padding-left: 21px;
+padding-top: 3px;
+    }
+    .email-form::-webkit-input-placeholder {
+      font-size: 16px;
+      font-family: Gothm Rounded;
+      color: rgb(55, 55, 55);
+      text-transform: uppercase;
+      line-height: 1.2;
+}
+.subscribe-text {
+font-size: 24px;
+position: relative;
+top: 286px;
+font-family: Gothm Rounded Bold;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+line-height: 1.25;
+left: 403px;
+letter-spacing: 0.15em;
+}
+.tick-button {
+padding: 0;
+border: 0;
+border-radius: 0px 3px 3px 0px;
+background-color: transparent;
+outline: none;
+position: relative;
+top: 404.3px;
+left: 464px;
+}
+.tick-img {
+border: 0;
+border-radius: 0px 3px 3px 0px;
+}
+.section-6 {
+  background: url("images/Section-6-background.png") no-repeat;
+  height: 396px;
+  width: 1280px;
+}
+.download-it {
+position: relative;
+    font-size: 20px;
+    color: rgb(55,55,55);
+    line-height: 1.2;
+    font-family: Gothm Rounded Bold;
+    top: 88px;
+    left: 547px;
+    letter-spacing: 2.95px;
+}
+.section-6-text {
+text-transform: uppercase;
+font-size: 12px;
+font-family: Gothm Rounded;
+line-height: 1.833;
+text-align: center;
+position: relative;
+top: 84px;
+left: 0px;
+letter-spacing: 0.15em;
+}
+.section-6-text1 {
+text-transform: uppercase;
+font-size: 12px;
+font-family: Gothm Rounded;
+line-height: 1.833;
+text-align: center;
+position: relative;
+top: 74px;
+left: 0px;
+letter-spacing: 0.15em;
+}
+.section-6-text2 {
+text-transform: uppercase;
+    font-size: 12px;
+    font-family: Gothm Rounded;
+    line-height: 1.833;
+    text-align: center;
+    position: relative;
+    top: 65px;
+    left: 0px;
+    letter-spacing: 0.15em;
+}
+.apple {
+padding: 0;
+    border: 0;
+    border-radius: 0px 3px 3px 0px;
+    outline: none;
+    position: relative;
+    top: 97px;
+    left: 330px;
+}
+.apple-img {
+  border: 0;
+  border-radius: 0px 3px 3px 0px;
+
+}
+.android {
+padding: 0;
+    border: 0;
+    border-radius: 0px 3px 3px 0px;
+    outline: none;
+    position: relative;
+    top: 97px;
+    left: 352px;
+}
+.android-img {
+  border: 0;
+  border-radius: 0px 3px 3px 0px;
+
+}
+.footer {
+background-color: white;
+z-index: 1;
+height: 131px;
+width: 1280px;
+}
+.credits {
+font-size: 14px;
+font-family: Gothm Rounded Bold;
+color: rgb(55, 55, 55);
+text-transform: uppercase;
+line-height: 1.2;
+position: relative;
+top: 44px;
+left: 126px;
+letter-spacing: 0.15em;
+
+}
+.copyright {
+font-size: 14px;
+    font-family: Gothm Rounded Bold;
+    color: rgb(55, 55, 55);
+    line-height: 1.2;
+    position: relative;
+    top: 54px;
+    left: 127px;
+    letter-spacing: 0.15em;
+}
+.footer-icon {
+position: relative;
+background: url(images/footer-Icon.png) no-repeat;
+width: 53px;
+height: 55px;
+left: 1098px;
+top: -14px;
+}
