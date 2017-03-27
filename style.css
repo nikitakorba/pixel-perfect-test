@@ -391,7 +391,7 @@
     }
 
     .section-5 {
-        background: url("images/Section-4-background.png") no-repeat;
+        background: url(images/Section-4-background.png) no-repeat;
         height: 790px;
         width: 1280px;
     }
@@ -442,7 +442,7 @@ border: 0;
 border-radius: 0px 3px 3px 0px;
 }
 .section-6 {
-  background: url("images/Section-6-background.png") no-repeat;
+  background: url(images/Section-6-background.png) no-repeat;
   height: 396px;
   width: 1280px;
 }
