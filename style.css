@@ -23,6 +23,10 @@
         height: 745px;
         /*display: flex;*/
     }
+    .credits a {
+      text-decoration: none;
+      color: rgb(55, 55, 55);;
+    }
     .section1 a {
         text-decoration: none;
         color: white;
