@@ -23,10 +23,6 @@
         height: 745px;
         /*display: flex;*/
     }
-    .credits a {
-      text-decoration: none;
-      color: rgb(55, 55, 55);;
-    }
     .section1 a {
         text-decoration: none;
         color: white;
@@ -541,6 +537,10 @@ top: 44px;
 left: 126px;
 letter-spacing: 0.15em;
 
+}
+.credits a {
+  text-decoration: none;
+  color: rgb(55, 55, 55);;
 }
 .copyright {
 font-size: 14px;
