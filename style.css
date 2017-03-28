@@ -13,6 +13,9 @@
     body {
         margin: 0;
     }
+    .bold-text {
+      font-family: Gothm Rounded Bold;
+    }
     .section1 {
         background: url("images/Без-имени-1.png");
         /*position: absolute;*/
@@ -552,7 +555,4 @@ width: 53px;
 height: 55px;
 left: 1098px;
 top: -14px;
-}
-.bold-text {
-  font-family: Gothm Rounded Bold;
 }
